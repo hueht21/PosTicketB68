@@ -1,0 +1,28 @@
+name: pos_ticket_b68
+description: This is a printer product written by LocHV
+homepage: https://github.com/HVLoc/PosTicketB68
+
+version: 1.0.2
+
+environment:
+  sdk: ">=2.16.2 <4.0.0"
+  flutter: ">=3.10.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  get_radio_version_plugin: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: vn.lochv.b68
+        pluginClass: PosPluginB68
+
